@@ -1,3 +1,10 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+print(f"You were born in {2024 - age}")
+
+# Version with datetime:
+
 import datetime
 
 name = input("Enter your name: ")
